@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révélations Uniques - Découvrez Votre Vérité Éphémère</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- SDK PayPal - Remplacez VOTRE_CLIENT_ID_PAYPAL par votre vrai Client ID -->
+    <script src="https://www.paypal.com/sdk/js?client-id=Aa_WVAPgT1BYWzEjN8T4RJGy2BmVoMGr2fkaSGh4q31BB3R0bsX5vqB3Fx6W8-rIEH-Lno0WLeGrLqFL&currency=EUR"></script>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-eye"></i>
+                <span>Révélations Uniques</span>
+            </div>
+            <div class="tagline">Votre vérité vous attend</div>
+        </header>
+
+        <main class="main-content">
+            <div class="hero-section">
+                <h1 class="main-title">
+                    Découvrez Votre 
+                    <span class="highlight">Révélation Unique</span>
+                    et Éphémère
+                </h1>
+                
+                <div class="description">
+                    <p class="lead">Chaque révélation est générée par une intelligence artificielle avancée, <strong>garantie unique</strong> et créée spécialement pour vous.</p>
+                    <p class="sub-lead">Une fois révélée, elle disparaîtra à jamais. Cette vérité n'appartiendra qu'à vous.</p>
+                </div>
+
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-sparkles"></i>
+                        <span>100% Unique</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-clock"></i>
+                        <span>Éphémère</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-robot"></i>
+                        <span>IA Avancée</span>
+                    </div>
+                </div>
+
+                <div class="price-section">
+                    <div class="price-container">
+                        <span class="price-label">Prix spécial de lancement</span>
+                        <div class="price">0,99 €</div>
+                        <span class="price-note">Paiement sécurisé via PayPal</span>
+                    </div>
+                </div>
+
+                <div id="paypal-button-container" class="paypal-container"></div>
+
+                <div class="trust-indicators">
+                    <div class="indicator">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Paiement 100% sécurisé</span>
+                    </div>
+                    <div class="indicator">
+                        <i class="fas fa-bolt"></i>
+                        <span>Révélation instantanée</span>
+                    </div>
+                    <div class="indicator">
+                        <i class="fas fa-user-secret"></i>
+                        <span>Totalement anonyme</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="revelation-display" class="revelation-container hidden">
+                <div class="revelation-header">
+                    <i class="fas fa-eye-slash"></i>
+                    <h2>Votre Révélation Unique</h2>
+                </div>
+                <div class="revelation-content">
+                    <p id="revelation-text"></p>
+                </div>
+                <div class="revelation-footer">
+                    <div class="timer-container">
+                        <i class="fas fa-hourglass-half"></i>
+                        <span>Cette révélation disparaîtra dans <span id="countdown">15</span> secondes...</span>
+                    </div>
+                    <button id="get-another" class="get-another-btn">
+                        <i class="fas fa-redo"></i>
+                        Obtenir une autre révélation
+                    </button>
+                </div>
+            </div>
+
+            <div id="error-message" class="error-container hidden">
+                <div class="error-content">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Oups ! Une erreur est survenue</h3>
+                    <p>Veuillez réessayer dans quelques instants.</p>
+                    <button id="retry-btn" class="retry-btn">Réessayer</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Révélations Uniques. Chaque vérité est précieuse.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="floating-elements">
+        <div class="floating-icon" style="--delay: 0s; --duration: 8s;">✨</div>
+        <div class="floating-icon" style="--delay: 2s; --duration: 10s;">🔮</div>
+        <div class="floating-icon" style="--delay: 4s; --duration: 12s;">💫</div>
+        <div class="floating-icon" style="--delay: 6s; --duration: 9s;">⭐</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
