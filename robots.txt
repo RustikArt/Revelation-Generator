@@ -1,0 +1,1 @@
+Sitemap: https://revelationgenerator.netlify.app/sitemap.xml
